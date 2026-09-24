@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+html.light-theme,
+.light-theme {
+  --app-bg: #f8fafc;
+  --app-surface: #ffffff;
+  --app-border: #e2e8f0;
+  --app-text: #0f172a;
+  --app-text-muted: #64748b;
+  color-scheme: light;
+}
+
+html.dark,
+.dark {
+  --app-bg: #0b0f17;
+  --app-surface: #111622;
+  --app-border: #1e293b;
+  --app-text: #f8fafc;
+  --app-text-muted: #94a3b8;
+  color-scheme: dark;
+}
+
+.light-theme body,
+.light-theme #root,
+.light-theme main {
+  background-color: #f8fafc !important;
+  color: #0f172a !important;
+}
+
+.light-theme .bg-\[\#0b0f17\] {
+  background-color: #f8fafc !important;
+}
+
+.light-theme .bg-slate-950,
+.light-theme .bg-slate-950\/80,
+.light-theme .bg-slate-950\/60 {
+  background-color: #f1f5f9 !important;
+  color: #0f172a !important;
+}
+
+.light-theme .bg-slate-900,
+.light-theme .bg-slate-900\/70,
+.light-theme .bg-slate-900\/60,
+.light-theme .bg-slate-900\/80 {
+  background-color: #ffffff !important;
+  color: #0f172a !important;
+}
+
+.light-theme .border-slate-800,
+.light-theme .border-slate-800\/80,
+.light-theme .border-slate-800\/90,
+.light-theme .border-slate-700 {
+  border-color: #e2e8f0 !important;
+}
+
+.light-theme .text-slate-400,
+.light-theme .text-slate-500 {
+  color: #64748b !important;
+}
+
+.light-theme .text-white {
+  color: #0f172a !important;
+}

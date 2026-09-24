@@ -1,0 +1,6 @@
+{
+  "name": "Attendance Manager",
+  "description": "Real-time university attendance management, department tracking, and digital roll call suite.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
